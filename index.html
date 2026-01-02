@@ -2,25 +2,39 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- TODO: Set the document title to the name of your application -->
-    <title>Lovable App</title>
-    <meta name="description" content="Lovable Generated Project" />
-    <meta name="author" content="Lovable" />
-
-    <!-- TODO: Update og:title to match your application name -->
-    <meta property="og:title" content="Lovable App" />
-    <meta property="og:description" content="Lovable Generated Project" />
+    <title>Dr. Ayesha Hina | Dermatology Clinic - FCPS Dermatologist in Karachi</title>
+    <meta name="description" content="Dr. Ayesha Hina - FCPS Dermatology Consultant at Liaquat National Hospital, Karachi. Expert care for skin conditions, allergies, and cosmetic dermatology. Book your appointment today." />
+    <meta name="keywords" content="dermatologist karachi, skin doctor, FCPS dermatology, Dr Ayesha Hina, Liaquat National Hospital, skin specialist, allergy clinic" />
+    <meta name="author" content="Dr. Ayesha Hina" />
+    
+    <!-- Open Graph / Social Media -->
     <meta property="og:type" content="website" />
+    <meta property="og:title" content="Dr. Ayesha Hina | Dermatology Clinic" />
+    <meta property="og:description" content="FCPS Dermatology Consultant at Liaquat National Hospital, Karachi. Expert skin care and treatment." />
     <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-
+    
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@Lovable" />
+    <meta name="twitter:site" content="@lovabordev" />
     <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-  </head>
+    
+    <!-- Canonical -->
+    <link rel="canonical" href="https://drayeshahina.com" />
 
+    <!-- Dialogflow Chatbot -->
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+  </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    
+    <!-- Dialogflow Messenger -->
+    <df-messenger
+      intent="WELCOME"
+      chat-title="HackathonAgent"
+      agent-id="cb6c4155-711e-4de2-819c-d60b2b3fa295"
+      language-code="en"
+    ></df-messenger>
   </body>
 </html>
